@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:ital,wght@1,300&display=swap');
+
+
+body {
+    /* background: #ddd; */
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    background: #fff3f3;
+    color: rgb(0, 37, 37);
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+#ava {
+    width: 200px;
+    /* border-radius: 50%; */
+}
+
+.card {
+    background: #ddd;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    border-left: 2px solid rgb(255, 159, 159);
+    border-radius: 7px;
+}
+
+.card td, .card th {
+    padding: 0 15px ;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: darkred;
+    
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background: #111;
+    color:antiquewhite;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: #494949;
+    color:rgb(255, 191, 108);
+    transition: 0.3s;
+}
+
+table {
+    margin: auto;
+}
+
+table td:nth-child(odd), table th:nth-child(even) {
+    background: #c3ffd0;
+}
+
+table th:nth-child(odd), table td:nth-child(even) {
+    border: 3px dashed #c3ffd0;
+}
+
+.connection input, .connection textarea {
+    border: none;
+    border-bottom: 1px solid gray;
+    outline:none;
+}
+
+.top {
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 49%;
+}
+
+.top input {
+    width: 95%;
+}
+
+.connection textarea {
+    resize: none;
+    width: 100%;
+}
+
+.connection label {
+    display: flex;
+}
+
+@media (max-width: 650px) {
+    body {
+        background: grey;
+        font-size: 12px;
+        color: rgb(0, 0, 0);
+    }
+}
